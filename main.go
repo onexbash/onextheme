@@ -1,7 +1,8 @@
 package main
 
-import "github.com/onexbash/onextheme/colors"
+import colors "github.com/onexbash/onextheme/colors"
 
 func main() {
-	print.Display()
+	colors.Display()
+	colors.GetColors()
 }
